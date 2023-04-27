@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.movie-title{
+    margin: 35px 0px;
+    font-size: 42px;
+    text-align: center;
+}
+.movie__list{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.movie__item{
+    margin-bottom: 15px;
+    width: 250px;
+    padding: 10px 15px;
+    text-align: center;
+    margin-right: 15px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+}

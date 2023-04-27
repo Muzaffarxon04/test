@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1 class="movie-title">Movies</h1>
+
+    <button id="prev">prev</button>
+    <button id="next">next</button>
+    <input placeholder="search..." type="text" id="search">
+    <ul id="movie__list" class="movie__list"></ul>
+
+
+    <template id="movie__template">
+        <li id="movie__item" class="movie__item">
+            <img class="movie__img" src="http://via.placeholder.com/100x150" alt="img" width="100" height="150">
+            <h2 class="movie__title">Movie Title</h2>
+            <p class="movie__type">movie</p>
+            <span class="movie__year">1999</span>
+            <p class="movie__imdbid">imdbId</p>
+        </li>
+    </template>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
